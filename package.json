@@ -1,0 +1,29 @@
+{
+  "name": "robchat-client",
+  "version": "0.0.1",
+  "description": "Client application for end-to-end encrypted group chat.",
+  "main": "client/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/robmclarty/robchat-client.git"
+  },
+  "keywords": [
+    "websocket",
+    "e2e",
+    "secure",
+    "chat"
+  ],
+  "author": "Rob McLarty <r@robmclarty.com> (http://robmclarty.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robmclarty/robchat-client/issues"
+  },
+  "homepage": "https://github.com/robmclarty/robchat-client#readme"
+}
