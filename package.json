@@ -1,6 +1,6 @@
 {
   "name": "robchat-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client application for end-to-end encrypted group chat.",
   "main": "app/index.js",
   "directories": {
