@@ -2,14 +2,16 @@
   "name": "robchat-client",
   "version": "0.0.1",
   "description": "Client application for end-to-end encrypted group chat.",
-  "main": "client/index.js",
+  "main": "app/index.js",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "scripts": {
+    "start": "npx electron ./index.js",
+    "start:build": "npm run build && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:browser": "npx soko build --jsIn ./client/index.js --cssIn ./styles/client/index.scss --assetsIn ./assets"
+    "build": "npx soko build --jsIn ./app/index.js --cssIn ./styles/index.scss --assetsIn ./assets"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,10 @@
   "homepage": "https://github.com/robmclarty/robchat-client#readme",
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "electron": "^2.0.7",
     "soko": "^0.2.6"
   }
 }
